@@ -197,6 +197,8 @@ body p, body li {
 
 .content_left, .content_right {
 	max-width: 650px;
+	position: relative;
+	z-index: 1;
 }
 
 .content_right {
