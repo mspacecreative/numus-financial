@@ -117,10 +117,16 @@ header {
 	z-index: 3;
 }
 
+header .inner {
+	padding: 0;
+}
+
 .inner {
 	max-width: 1080px;
 	margin: auto;
 	width: 90%;
+	padding: 80px 0;
+	position: relative;
 }
 
 .hero-text-overlay {
@@ -180,6 +186,7 @@ body p, body li, body h2 {
 .hero img {
 	border-bottom: 3px solid #cc8a2b;
 	padding-bottom: 4px;
+	width: 100%;
 }
 
 body p, body li {
@@ -230,7 +237,7 @@ body ul {
 
 .animation-right {
 	position: absolute;
-	right: 10%;
+	right: 0;
 	top: 0;
 	top: 50%;
 	transform: translateY(-50%);
@@ -238,7 +245,7 @@ body ul {
 
 .animation-left {
 	position: absolute;
-	left: 10%;
+	left: 0;
 	top: 50%;
 	transform: translateY(-50%);
 }
