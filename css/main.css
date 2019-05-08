@@ -104,7 +104,7 @@ body {
 #hero {
 	position: relative;
 	height: 0;
-	padding-bottom: 48.8%;
+	padding-bottom: 48.4%;
 	z-index: 2;
 }
 
@@ -179,7 +179,7 @@ body p, body li, body h2 {
 
 .hero img {
 	border-bottom: 3px solid #cc8a2b;
-	padding-bottom: 3px;
+	padding-bottom: 4px;
 }
 
 body p, body li {
@@ -187,7 +187,7 @@ body p, body li {
 }
 
 #intro .inner, #invest .inner, #approach .inner, #assist .inner, #picky .inner, #cta .inner {
-	padding: 50px 0;
+	padding: 80px 0;
 }
 
 #approach, #picky, #intro {
@@ -241,10 +241,6 @@ body ul {
 	transform: translateY(-50%);
 }
 
-#picky .animation-left {
-	transform: translateY(-20%);
-}
-
 #cta {
 	background-image: url(../img/honeycomb.jpg);
 	text-align: center;
@@ -277,6 +273,12 @@ body ul {
 	color: #fff;
 	text-decoration: none;
 	display: block;
+}
+
+footer {
+	border-top: 3px solid #cc8a2b;
+	background-color: #fff;
+	margin-top: 3px;
 }
 
 footer p {
